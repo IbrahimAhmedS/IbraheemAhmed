@@ -1,0 +1,36 @@
+body{
+   margin: 0;
+   padding: 0;
+   background-color:plum;
+}
+/* remember start with the general, not to much classes, and add comments */
+/* general styling mobile first */
+/* about */
+/* Work Experience */
+/* Featured Projects */
+/* Technical and Soft Skills */
+/* Readings and intrests */
+/* tinkering and random mini projects */
+/* Education */
+/* A Side Of My Personal Life */
+/* Contact me */
+
+
+
+/* special for pc visitor */
+@media screen and (min-width:600px){
+
+/* general styling pc */
+body{
+   background-color: powderblue;
+}
+/* about */
+/* Work Experience */
+/* Featured Projects */
+/* Technical and Soft Skills */
+/* Readings and intrests */
+/* tinkering and random mini projects */
+/* Education */
+/* A Side Of My Personal Life */
+/* Contact me */
+}
