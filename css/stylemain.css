@@ -1,11 +1,38 @@
-body{
-   margin: 0;
-   padding: 0;
-   background-color:plum;
+:root{
+   /* colors */
+   --red:#B24C63;
+   --wite:#F5EBE0;
+   --blue:#031D44;
+   --or:#FAC9B8;
+   --sky:#B4D6D3;
+   --green:#92AD94;
 }
 /* remember start with the general, not to much classes, and add comments */
 /* general styling mobile first */
+body{
+   display: flex;
+   flex-direction: column;
+   margin: 0;
+   padding: 0;
+}
+.wrapper{
+   width: 75%;
+   margin: auto auto;
+}
+
+a{
+   text-decoration: none;
+}
 /* about */
+.about{
+   background-color: var(--blue);
+   color: var(--wite);
+   padding: 30px 0px;
+}
+/* nav bar */
+nav > ul{
+   list-style: none;
+}
 /* Work Experience */
 /* Featured Projects */
 /* Technical and Soft Skills */
@@ -18,13 +45,13 @@ body{
 
 
 /* special for pc visitor */
-@media screen and (min-width:600px){
+@media screen and (min-width:550px){
 
 /* general styling pc */
-body{
-   background-color: powderblue;
-}
 /* about */
+.wrapper{
+   max-width: 800px;
+}
 /* Work Experience */
 /* Featured Projects */
 /* Technical and Soft Skills */
