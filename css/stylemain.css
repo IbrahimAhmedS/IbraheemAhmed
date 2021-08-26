@@ -18,31 +18,79 @@ body{
 .wrapper{
    width: 75%;
    margin: auto auto;
+   padding:40px 0;
 }
 
 a{
    text-decoration: none;
 }
+
 /* about */
 .about{
    background-color: var(--blue);
    color: var(--wite);
-   padding: 30px 0px;
 }
 /* nav bar */
+.navbar > .wrapper{
+   margin: 0 auto;
+   padding: ;
+}
 nav > ul{
    list-style: none;
+   padding: 0;
+   margin: 0;
+   display: flex;
+   flex-wrap: wrap;
+}
+nav li{
+   margin:10px 5px;
+   display: flex;
+}
+nav a{
+   background-color: var(--blue);
+   color: var(--or);
+   padding: 8px;
 }
 /* Work Experience */
+.work{
+   background-color: var(--sky);
+}
 /* Featured Projects */
+.projects{
+   background-color: var(--wite);
+}
 /* Technical and Soft Skills */
+.skills{
+   background-color: var(--or);
+}
 /* Readings and intrests */
+.readings{
+   background-color: var(--wite);
+}
 /* tinkering and random mini projects */
+.tinkering{
+   background-color: var(--sky);
+}
 /* Education */
+.education{
+   background-image: url(../images/olia-gozha-J4kK8b9Fgj8-unsplash.jpg);
+}
 /* A Side Of My Personal Life */
+.life{
+   background-color: var(--or);
+}
 /* Contact me */
-
-
+.contact{
+   background-color: var(--blue);
+   color: var(--wite);
+}
+footer > ul{
+   list-style: none;
+   padding: 0;
+}
+.contact a{
+   color:var(--or);
+}
 
 /* special for pc visitor */
 @media screen and (min-width:550px){
