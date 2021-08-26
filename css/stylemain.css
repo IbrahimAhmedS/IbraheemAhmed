@@ -29,7 +29,10 @@ img {
    max-width: 300px;
    width: 100%;
 }
-
+iframe{
+   max-width: 300px;
+   width:100%;
+}
 
 h1{
    font-family: 'Merienda', cursive;
@@ -182,11 +185,12 @@ footer > ul{
    margin-top: 0;
 }
 /* Featured Projects */
-.projects img{
+.projects img,.projects iframe{
    grid-column: 1/5;
    column-gap: 20px;
    grid-row: 1;
 }
+
 .gridcontainer > .projectd{
    grid-column: 5/12;
    grid-row: 1;
@@ -200,6 +204,21 @@ footer > ul{
    border-bottom: var(--red) dashed;
 }
 /* Technical and Soft Skills */
+/* grid with text on photo */
+.flexcontainer{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+.flexcontainer > section{
+   /* flex: 1 1 200px; */
+   flex-basis: 40%;
+   margin-right: 10%;
+}
+.flexcontainer{
+   columns: 2;
+   widows: 10;
+}
 /* Readings and intrests */
 /* tinkering and random mini projects */
 /* Education */
