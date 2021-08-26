@@ -105,6 +105,7 @@ nav a:hover, nav a:active{
 .projects{
    background-color: var(--wite);
 }
+
 /* Technical and Soft Skills */
 .skills{
    background-color: var(--or);
@@ -160,6 +161,8 @@ footer > ul{
 .gridcontainer{
    display: grid;
    grid-template-columns: repeat(1fr,12);
+   margin-bottom: 20px;
+   column-gap: 20px;
 }
 
 /* about */
@@ -170,13 +173,32 @@ footer > ul{
 .gridcontainer > .jobtitle{
    margin-right: 20px;
    grid-column: 1/4;
+   grid-row: 1;
 }
 
 .gridcontainer > .jobdetails{
    grid-column: 4/12;
+   grid-row: 1;
+   margin-top: 0;
 }
 /* Featured Projects */
+.projects img{
+   grid-column: 1/5;
+   column-gap: 20px;
+   grid-row: 1;
+}
+.gridcontainer > .projectd{
+   grid-column: 5/12;
+   grid-row: 1;
+}
+.gridcontainer h3{
+   margin: 0 auto;
+}
 
+.projects > .wrapper .gridcontainer{
+   padding-bottom: 20px;
+   border-bottom: var(--red) dashed;
+}
 /* Technical and Soft Skills */
 /* Readings and intrests */
 /* tinkering and random mini projects */
