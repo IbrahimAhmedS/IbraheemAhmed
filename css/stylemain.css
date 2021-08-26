@@ -150,15 +150,33 @@ footer > ul{
 }
 
 /* special for pc visitor */
-@media screen and (min-width:550px){
+@media screen and (min-width:580px){
 
 /* general styling pc */
-/* about */
 .wrapper{
    max-width: 800px;
 }
+
+.gridcontainer{
+   display: grid;
+   grid-template-columns: repeat(1fr,12);
+}
+
+/* about */
+.about{
+   text-align: center;
+}
 /* Work Experience */
+.gridcontainer > .jobtitle{
+   margin-right: 20px;
+   grid-column: 1/4;
+}
+
+.gridcontainer > .jobdetails{
+   grid-column: 4/12;
+}
 /* Featured Projects */
+
 /* Technical and Soft Skills */
 /* Readings and intrests */
 /* tinkering and random mini projects */
