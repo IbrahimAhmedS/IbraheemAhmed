@@ -16,7 +16,7 @@ body{
    padding: 0;
 }
 .wrapper{
-   width: 75%;
+   width: 85%;
    margin: auto auto;
    padding:40px 0;
 }
@@ -26,30 +26,48 @@ a{
 }
 
 /* about */
+
 .about{
    background-color: var(--blue);
    color: var(--wite);
 }
+.about > .wrapper{
+   margin-bottom: 0;
+   padding-bottom: 1px;
+}
 /* nav bar */
+.navbar{
+   background-color:var(--blue);
+   position: sticky;
+   top: 0;
+   right: 0;
+}
 .navbar > .wrapper{
-   margin: 0 auto;
-   padding: ;
+   /* margin: 0 auto; */
+   padding:15px 0;
+   width:100%;
+   display: flex;
+   justify-content: center;
 }
 nav > ul{
    list-style: none;
    padding: 0;
    margin: 0;
    display: flex;
+   justify-content: center;
    flex-wrap: wrap;
 }
 nav li{
-   margin:10px 5px;
+   /* margin:2px 2px; */
    display: flex;
 }
 nav a{
-   background-color: var(--blue);
-   color: var(--or);
-   padding: 8px;
+   background-color: var(--sky);
+   color: var(--blue);
+   margin:1.5px;
+   padding: 5px;
+   border-radius: 50px;
+   font-size: 12px;
 }
 /* Work Experience */
 .work{
