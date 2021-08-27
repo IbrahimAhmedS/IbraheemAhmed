@@ -211,6 +211,10 @@ footer > ul{
    grid-row: 1;
    margin-top: 0;
 }
+
+.jobdetails p{
+   margin-top: 0;
+}
 /* Featured Projects */
 .projects img,.projects iframe{
    grid-column: 1/6;
@@ -255,7 +259,7 @@ footer > ul{
    margin-right: 14px;
 }
 
-.tinkering a{
+.tinkering a,.jobdetails a{
    background-color: var(--red);
    color: var(--sky);
    padding:10px 15px;
