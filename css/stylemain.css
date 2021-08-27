@@ -186,13 +186,13 @@ footer > ul{
 }
 /* Featured Projects */
 .projects img,.projects iframe{
-   grid-column: 1/5;
+   grid-column: 1/6;
    column-gap: 20px;
    grid-row: 1;
 }
 
 .gridcontainer > .projectd{
-   grid-column: 5/12;
+   grid-column: 6/12;
    grid-row: 1;
 }
 .gridcontainer h3{
