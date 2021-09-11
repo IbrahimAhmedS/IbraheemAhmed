@@ -185,7 +185,7 @@ footer > ul{
 .flexcontainer{
    display: flex;
    flex-wrap: wrap;
-   justify-content: space-around;
+   justify-content: flex-start;
 }
 
 .gridcontainer{
@@ -255,7 +255,12 @@ footer > ul{
 .readings h3{
    margin-top: 0;
 }
-.readings .flexcontainer > section{
+.flexcontainerReading{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+.flexcontainerReading > section{
    margin-right: 14px;
 }
 
