@@ -194,7 +194,11 @@ footer > ul{
    margin-bottom: 20px;
    column-gap: 20px;
 }
-
+.flexcontainerReading{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
 /* about */
 .about{
    text-align: center;
@@ -255,11 +259,7 @@ footer > ul{
 .readings h3{
    margin-top: 0;
 }
-.flexcontainerReading{
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-around;
-}
+
 .flexcontainerReading > section{
    margin-right: 14px;
 }
@@ -272,9 +272,7 @@ footer > ul{
    display: inline-block;
    border-radius: 10px;
 }
-.tinkering .flexcontainer > section{
-   /* width:100px; */
-}
+
 .tinkering h3{
    font-size: 13.6px;
    margin: 0;
