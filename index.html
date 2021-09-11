@@ -130,13 +130,13 @@
                      <section>
                         <!-- <img src="https://picsum.photos/300" alt=""> -->
                         <h3>Team Work</h3>
-                        <p>In this age, it is rare to do a full project totally in your own. I love the idea of team work and small teams. I have been working with teams in many projects, and I know how great can a product be if the team working on it was a good team.</p>
+                        <p>In this age, it is rare to do a full good project totally in your own. I love the idea of team work and small teams. I have been working with teams in many projects, and I know how great can a product be if the team working on it was a good team.</p>
                      </section>
                      <!-- Communication  -->
                      <section>
                         <!-- <img src="https://picsum.photos/300" alt=""> -->
                         <h3>Communication</h3>
-                        <p>strugling in communication means struggling in being heard or seen. so, communication is a very </p>
+                        <p>strugling in communication means struggling in being heard or seen. I will admit that, I was for some time in my life unable to  </p>
                      </section>
                      <!-- programming  -->
                      <section>
@@ -270,7 +270,7 @@
             <section>
                <!-- <img src="https://picsum.photos/300" alt=""> -->
                <h2>A Side Of My Personal Life</h2>
-               <p>Long story made short, I love my family and I am a family guy. I am a father of a wonderful boy who is <div id="Ahmed-age"></div> year old.</p>
+               <p>Long story made short, I love my family and I am a family guy. I am a father of a wonderful boy who is <span id="Ahmed-age"></span> year old.</p>
             </section>
          </div>
       </div>
@@ -288,5 +288,19 @@
          </div>
       </div>
    </div>
+   <script>
+      function getAge(dateString) {
+         var today = new Date();
+         var birthDate = new Date(dateString);
+         var age = today.getFullYear() - birthDate.getFullYear();
+         var m = today.getMonth() - birthDate.getMonth();
+         if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+            age--;
+         }
+         return age;
+         }
+      const age = document.getElementById("Ahmed-age");
+      age.innerHTML= getAge("1995-9-12");
+   </script>
 </body>
 </html>
